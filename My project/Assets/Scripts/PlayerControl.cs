@@ -15,7 +15,7 @@ public class PlayerControl : MonoBehaviour
     float x;
     float y;
 
-    private void Start()
+    private void Awake()
     {
         animator = GetComponent<Animator>();
     }
